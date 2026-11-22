@@ -1,5 +1,43 @@
+/* Background color */
 body {
-    background-color: rgb(55, 41, 41);
-    color: white;
+    background-color: lightblue;
     font-family: Arial, sans-serif;
+}
+
+/* Login form container */
+.login-container {
+    background-color: white;
+    width: 300px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Login title */
+h2 {
+    color: blue;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Login button */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkblue;
 }
